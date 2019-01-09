@@ -6,11 +6,48 @@ http://pi-star:2222
 
 执行(复制粘贴以下内容)  
 ```
+cd /home/pi-star/  
 rpi-rw;  
 curl -OL https://raw.githubusercontent.com/bi7jta/XLX_CN/master/XLXHostsCN.txt;   
 ```
+![图片装载中](/XLX-Config0.png)
 
-QQ讨论群  320533571  
+修改 XLXHosts列表指向，如下：  
+http://pi-star/admin/expert/fulledit_dmrgateway.php  
+```
+[XLX Network]  
+Enabled=1  
+Port=62030  
+Password=passw0rd  
+ReloadTime=60  
+Slot=2  
+TG=6  
+Base=64000  
+Startup=999  
+Relink=60  
+Debug=0  
+Id=4600060  
+UserControl=1  
+File=/home/pi-star/XLXHostsCN.txt  
+```  
+![图片装载中](/XLX-Config1.png)  
+
+回到配置页面，DMR配置选择【DMR gateway】打开并选择XLX服务器为 999     
+http://pi-star/admin/configure.php   
+DMR Master: DMRGateway
+BrandMeister Master: BM_China_4601 
+DMR+ 保持默认不打开  
+XLX Master: 999  
+XLX Master Enable: 打开  
+其它默认   
+![图片装载中](/XLX-Config2.png)  
+
+保存，等待连接成功后，呼叫 TG6 ，进入XLX房间（注意此房间并没有连接BM服务器）    
+服务端在线列表：  https://www.bi7jta.org/xlx/    
+![图片装载中](/XLX-Config3.png)  
+QQ讨论群  320533571   
+搭建方法： https://sadigitalradio.com/digital-radio-how-tos/create-xlx-xrf-d-star-reflector/  
+要求： Debian 或其它Linux环境  
 
 # Copyright
 
