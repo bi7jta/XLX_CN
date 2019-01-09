@@ -1,6 +1,20 @@
+# 连接方法  
+进入 ssh 模式  
+http://pi-star:2222  
+用户名  pi-star  
+密码  raspberry  
+
+执行(复制粘贴以下内容)  
+```
+rpi-rw;  
+curl -OL https://raw.githubusercontent.com/bi7jta/XLX_CN/master/XLXHostsCN.txt;   
+```
+
+QQ讨论群  320533571  
+
 # Copyright
 
-� 2016 Luc Engelmann LX1IQ
+� 2016 Luc Engelmann LX1IQ
 
 The XLX Multiprotocol Gateway Reflector Server is part of the software system
 for the D-Star Network.
@@ -121,4 +135,4 @@ XLX Server requires the following ports to be open and forwarded properly for in
  - UDP port 10100         (AMBE controller port)
  - UDP port 10101 - 10199 (AMBE transcoding port)
 
-� 2016 Luc Engelmann LX1IQ
+� 2016 Luc Engelmann LX1IQ

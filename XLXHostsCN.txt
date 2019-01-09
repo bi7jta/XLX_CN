@@ -1,0 +1,19 @@
+#       XLXHosts.txt
+#
+#       Written for Pi-Star Digital Voice Node by Andy Taylor (MW0MWZ)
+#       Origional idea from Jonathan Naylor (G4KLX)
+#
+#       Updated Monday 31st of December 2018 07:13:24 PM UTC
+#
+#	The format of this file is:
+#	XLX Number;host;default
+#
+#	Downloaded from: http://www.pistar.uk/downloads/XLXHosts.txt
+#	Source from: http://xlxapi.rlx.lu/api.php?do=GetXLXDMRMaster
+#
+#########################################################################
+#
+#	XLX Hosts Below
+#
+#########################################################################
+999;www.bi7jta.org;4004
