@@ -34,7 +34,7 @@ File=/home/pi-star/XLXHostsCN.txt
 
 回到配置页面，DMR配置选择【DMR gateway】打开并选择XLX服务器为 999     
 http://pi-star/admin/configure.php   
-DMR Master: DMRGateway
+DMR Master: DMRGateway  
 BrandMeister Master: BM_China_4601 
 DMR+ 保持默认不打开  
 XLX Master: 999  
@@ -48,6 +48,11 @@ XLX Master Enable: 打开
 QQ讨论群  320533571   
 搭建方法： https://sadigitalradio.com/digital-radio-how-tos/create-xlx-xrf-d-star-reflector/  
 要求： Debian 或其它Linux环境  
+资源：
+http://xrefl.net/  
+https://wiki.brandmeister.network/index.php/XLX  
+http://www.pistar.uk/downloads/XLXHosts.txt  
+https://www.bi7jta.org/xlx/index.php?show=reflectors  
 
 # Copyright
 
