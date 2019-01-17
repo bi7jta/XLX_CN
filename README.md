@@ -6,7 +6,7 @@ http://pi-star:2222
 
 执行(复制粘贴以下内容)  
 ```
-cd /home/pi-star/  
+cd /home/pi-star/;  
 rpi-rw;  
 curl -OL https://raw.githubusercontent.com/bi7jta/XLX_CN/master/XLXHostsCN.txt;   
 ```
