@@ -12,9 +12,9 @@ chmod +x update-XLX995-Local-Setting.sh;
 ./update-XLX995-Local-Setting.sh;  
 
 ```
-![图片装载中](/XLX-Config0.png)
+![图片装载中](/XLX995_RunScript)  
 
-回到配置页面，DMR配置选择【DMR gateway】打开并选择XLX服务器为 999     
+回到配置页面，DMR配置选择【DMR gateway】打开并选择XLX服务器为 995     
 http://pi-star/admin/configure.php   
 DMR Master: DMRGateway  
 BrandMeister Master: BM_China_4601 
@@ -22,7 +22,7 @@ DMR+ 保持默认不打开
 XLX Master: 999  
 XLX Master Enable: 打开  
 其它默认   
-![图片装载中](/XLX-Config2.png)  
+![图片装载中](/XLX995_PiStarConfig.png)  
 
 保存，等待连接成功后，呼叫 TG6 ，进入XLX房间（注意此房间并没有连接BM服务器）    
 服务端在线列表：  https://www.bi7jta.org/xlx/    
