@@ -6,13 +6,31 @@ http://pi-star:2222
 
 执行(复制粘贴以下内容)  
 ```
+cd /home/pi-star/;  
 rpi-rw;  
-curl -OL https://raw.githubusercontent.com/bi7jta/XLX_CN/master/update-XLX995-Local-Setting.sh;   
-chmod +x update-XLX995-Local-Setting.sh;  
-./update-XLX995-Local-Setting.sh;  
-
+curl -OL https://raw.githubusercontent.com/bi7jta/XLX_CN/master/XLXHostsCN.txt;   
 ```
 ![图片装载中](/XLX-Config0.png)
+
+修改 XLXHosts列表指向，如下：  
+http://pi-star/admin/expert/fulledit_dmrgateway.php  
+```
+[XLX Network]  
+Enabled=1  
+Port=62030  
+Password=passw0rd  
+ReloadTime=60  
+Slot=2  
+TG=6  
+Base=64000  
+Startup=999  
+Relink=60  
+Debug=0  
+Id=4600060  
+UserControl=1  
+File=/home/pi-star/XLXHostsCN.txt  
+```  
+![图片装载中](/XLX-Config1.png)  
 
 回到配置页面，DMR配置选择【DMR gateway】打开并选择XLX服务器为 999     
 http://pi-star/admin/configure.php   
