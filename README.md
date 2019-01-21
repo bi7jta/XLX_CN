@@ -12,7 +12,7 @@ chmod +x update-XLX995-Local-Setting.sh;
 ./update-XLX995-Local-Setting.sh;  
 
 ```
-![图片装载中](/XLX995_RunScript)  
+![图片装载中](/XLX995_RunScript.png)  
 
 回到配置页面，DMR配置选择【DMR gateway】打开并选择XLX服务器为 995     
 http://pi-star/admin/configure.php   
