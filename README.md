@@ -1,20 +1,6 @@
 # 连接方法  
-进入 ssh 模式  
-http://pi-star:2222  
-用户名  pi-star  
-密码  raspberry  
 
-执行(复制粘贴以下内容)  
-```
-rpi-rw;  
-curl -OL https://raw.githubusercontent.com/bi7jta/XLX_CN/master/update-XLX995-Local-Setting.sh;   
-chmod +x update-XLX995-Local-Setting.sh;  
-./update-XLX995-Local-Setting.sh;  
-
-```
-![图片装载中](/XLX995_RunScript.png)  
-
-回到配置页面，DMR配置选择【DMR gateway】打开并选择XLX服务器为 995     
+到配置页面，DMR配置选择【DMR gateway】打开并选择XLX服务器为 995     
 http://pi-star/admin/configure.php   
 DMR Master: DMRGateway  
 BrandMeister Master: BM_China_4601 
@@ -35,6 +21,22 @@ http://xrefl.net/
 https://wiki.brandmeister.network/index.php/XLX  
 http://www.pistar.uk/downloads/XLXHosts.txt  
 https://www.bi7jta.org/xlx/index.php?show=reflectors  
+
+# 备用脚本方法  
+--进入 ssh 模式  
+http://pi-star:2222  
+用户名  pi-star  
+密码  raspberry  
+
+执行(复制粘贴以下内容)  
+```
+rpi-rw;  
+curl -OL https://raw.githubusercontent.com/bi7jta/XLX_CN/master/update-XLX995-Local-Setting.sh;   
+chmod +x update-XLX995-Local-Setting.sh;  
+./update-XLX995-Local-Setting.sh;  
+
+```
+![图片装载中](/XLX995_RunScript.png)  
 
 # Copyright
 
