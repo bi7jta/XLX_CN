@@ -9,6 +9,7 @@ http://pi-star:2222
 执行(复制粘贴以下内容)  
 ```
 
+rpi-rw;
 curl -OL https://raw.githubusercontent.com/bi7jta/XLX_CN/master/XLXHost_XLX999.txt;  
 curl -OL https://raw.githubusercontent.com/bi7jta/XLX_CN/master/update-XLX999-Local-Setting.sh;   
 chmod +x update-XLX999-Local-Setting.sh;  
