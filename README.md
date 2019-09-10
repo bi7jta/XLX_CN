@@ -38,6 +38,16 @@ chmod +x update-XLX995-Local-Setting.sh;
 ```
 ![图片装载中](/XLX995_RunScript.png)  
 
+```
+#mount -o remount,ro / ;  
+rpi-rw;  
+curl -OL https://raw.githubusercontent.com/bi7jta/XLX_CN/master/XLXHost_XLX9999.txt;  
+curl -OL https://raw.githubusercontent.com/bi7jta/XLX_CN/master/update-XLX9999-Local-Setting.sh;   
+chmod +x update-XLX9999-Local-Setting.sh;  
+./update-XLX9999-Local-Setting.sh;  
+
+```
+
 # Copyright
 
 � 2016 Luc Engelmann LX1IQ
