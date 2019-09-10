@@ -45,7 +45,8 @@ curl -OL https://raw.githubusercontent.com/bi7jta/XLX_CN/master/XLXHost9999.txt;
 curl -OL https://raw.githubusercontent.com/bi7jta/XLX_CN/master/update-XLX9999-Local-Setting.sh;   
 chmod +x update-XLX9999-Local-Setting.sh;  
 ./update-XLX9999-Local-Setting.sh;  
-
+sudo /usr/local/sbin/mmdvmhost.service restart;    
+sudo /usr/local/sbin/dmrgateway.service restart;  
 ```
 
 # Copyright
