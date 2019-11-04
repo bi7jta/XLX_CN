@@ -41,13 +41,15 @@ chmod +x update-XLX995-Local-Setting.sh;
 ```
 #mount -o remount,ro / ;  
 rpi-rw;  
-curl -OL https://raw.githubusercontent.com/bi7jta/XLX_CN/master/XLXHosts9999.txt;  
-curl -OL https://raw.githubusercontent.com/bi7jta/XLX_CN/master/update-XLX9999-Local-Setting.sh;   
-chmod +x update-XLX9999-Local-Setting.sh;  
-./update-XLX9999-Local-Setting.sh;  
+curl -OL https://raw.githubusercontent.com/bi7jta/XLX_CN/master/XLXHosts995.txt;  
+curl -OL https://raw.githubusercontent.com/bi7jta/XLX_CN/master/update-XLX995-Local-Setting.sh;   
+chmod +x update-XLX995-Local-Setting.sh;  
+./update-XLX995-Local-Setting.sh;  
 sudo /usr/local/sbin/mmdvmhost.service restart;    
 sudo /usr/local/sbin/dmrgateway.service restart;  
 ```
+
+# 详细的注释请看脚本 update-XLX995-Local-Setting.sh  
 
 # Copyright
 
