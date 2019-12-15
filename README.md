@@ -28,21 +28,20 @@ http://pi-star:2222
 用户名  pi-star  
 密码  raspberry  
 
-执行(复制粘贴以下内容)  
-```
-rpi-rw;  
-curl -OL https://raw.githubusercontent.com/bi7jta/XLX_CN/master/update-XLX995-Local-Setting.sh;   
-chmod +x update-XLX995-Local-Setting.sh;  
-./update-XLX995-Local-Setting.sh;  
-
-```
-![图片装载中](/XLX995_RunScript.png)  
-
+![图片装载中](/XLX995_RunScript.png)   
+   
+执行(复制粘贴以下内容)     
 ```
 #mount -o remount,ro / ;  
 rpi-rw;  
-curl -OL https://raw.githubusercontent.com/bi7jta/XLX_CN/master/XLXHosts995.txt;  
-curl -OL https://raw.githubusercontent.com/bi7jta/XLX_CN/master/update-XLX995-Local-Setting.sh;   
+
+#curl -OL https://raw.githubusercontent.com/bi7jta/XLX_CN/master/XLXHosts995.txt;  
+#curl -OL https://raw.githubusercontent.com/bi7jta/XLX_CN/master/update-XLX995-Local-Setting.sh;  
+ 
+#链接好像被拒绝了！改成以下地址
+curl -OL https://bi7jta.org/files/XLX/XLXHosts995.txt; 
+curl -OL https://bi7jta.org/files/XLX/update-XLX995-Local-Setting.sh;
+
 chmod +x update-XLX995-Local-Setting.sh;  
 ./update-XLX995-Local-Setting.sh;  
 sudo /usr/local/sbin/mmdvmhost.service restart;    
@@ -50,6 +49,15 @@ sudo /usr/local/sbin/dmrgateway.service restart;
 ```
 
 # 详细的注释请看脚本 update-XLX995-Local-Setting.sh  
+查看日志  
+Server      
+tail -100f /var/log/messages  
+Client    
+tail -100f /var/log/pi-star/DMRGateway-2019-11-03.log   
+tail -100f /var/log/pi-star/MMDVM-2019-11-04.log  
+
+
+
 
 # Copyright
 

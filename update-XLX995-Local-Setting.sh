@@ -43,5 +43,5 @@ fi
 # tail -100f /var/log/messages
 # Client  
 # tail -100f /var/log/pi-star/DMRGateway-2019-11-03.log 
-#  tail -100f /var/log/pi-star/MMDVM-2019-11-04.log
+# tail -100f /var/log/pi-star/MMDVM-2019-11-04.log
 
